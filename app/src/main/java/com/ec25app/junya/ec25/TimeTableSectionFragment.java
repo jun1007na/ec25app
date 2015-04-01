@@ -7,9 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-/**
- * Created by Junya on 15/04/01.
- */
 public class TimeTableSectionFragment extends Fragment {
 
     @Override

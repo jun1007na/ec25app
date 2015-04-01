@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#616161">
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#616161">
 
     <TableRow android:layout_weight="1">
 
@@ -125,7 +125,7 @@
                 android:layout_marginRight="1dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_customize"
-                android:text="5・6" />
+                android:text="1・2" />
 
             <Button
                 android:layout_width="match_parent"
@@ -134,7 +134,7 @@
                 android:layout_marginRight="1dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_customize"
-                android:text="7・8" />
+                android:text="3・4" />
 
         </LinearLayout>
 
@@ -151,7 +151,8 @@
                 android:layout_marginRight="1dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_customize"
-                android:text="5・6" />
+                android:text="デジタル論理"
+                android:id="@+id/m1" />
 
             <Button
                 android:layout_width="match_parent"
@@ -160,7 +161,8 @@
                 android:layout_marginRight="1dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_customize"
-                android:text="7・8" />
+                android:text="保健体育"
+                android:id="@+id/m2" />
 
         </LinearLayout>
 
@@ -183,7 +185,8 @@
                     android:layout_marginRight="1dp"
                     android:layout_weight="1"
                     android:background="@drawable/button_customize"
-                    android:text="5・6" />
+                    android:text="電子回路IA"
+                    android:id="@+id/f1" />
             </LinearLayout>
 
             <LinearLayout
@@ -199,7 +202,8 @@
                     android:layout_marginRight="1dp"
                     android:layout_weight="1"
                     android:background="@drawable/button_customize"
-                    android:text="5・6" />
+                    android:text="オーラル"
+                    android:id="@+id/f2" />
 
                 <Button
                     android:layout_width="match_parent"
@@ -207,8 +211,7 @@
                     android:layout_marginBottom="1dp"
                     android:layout_marginRight="1dp"
                     android:layout_weight="1"
-                    android:background="@drawable/button_customize"
-                    android:text="7・8" />
+                    android:background="@drawable/button_customize" />
 
             </LinearLayout>
 
@@ -227,7 +230,8 @@
                 android:layout_marginRight="1dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_customize"
-                android:text="5・6" />
+                android:text="電磁気学IA"
+                android:id="@+id/a1" />
 
             <Button
                 android:layout_width="match_parent"
@@ -236,7 +240,8 @@
                 android:layout_marginRight="1dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_customize"
-                android:text="7・8" />
+                android:text="微分積分 II"
+                android:id="@+id/a2" />
 
         </LinearLayout>
 
@@ -253,7 +258,8 @@
                 android:layout_marginRight="1dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_customize"
-                android:text="5・6" />
+                android:text="英語 A"
+                android:id="@+id/w1" />
 
             <Button
                 android:layout_width="match_parent"
@@ -262,7 +268,8 @@
                 android:layout_marginRight="1dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_customize"
-                android:text="7・8" />
+                android:text="物理"
+                android:id="@+id/w2" />
 
         </LinearLayout>
 
@@ -278,7 +285,8 @@
                 android:layout_marginBottom="1dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_customize"
-                android:text="5・6" />
+                android:text="物理"
+                android:id="@+id/g1" />
 
             <Button
                 android:layout_width="match_parent"
@@ -286,7 +294,8 @@
                 android:layout_marginBottom="1dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_customize"
-                android:text="7・8" />
+                android:text="計算機システム"
+                android:id="@+id/g2" />
 
         </LinearLayout>
 
@@ -333,7 +342,8 @@
                 android:layout_marginRight="1dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_customize"
-                android:text="5・6" />
+                android:text="基礎力学"
+                android:id="@+id/m3" />
 
             <Button
                 android:layout_width="match_parent"
@@ -341,7 +351,8 @@
                 android:layout_marginRight="1dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_customize"
-                android:text="7・8" />
+                android:text="メカトロニクスA"
+                android:id="@+id/m4" />
 
         </LinearLayout>
 
@@ -358,7 +369,8 @@
                 android:layout_marginRight="1dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_customize"
-                android:text="5・6" />
+                android:text="工業数学A"
+                android:id="@+id/f3" />
 
             <Button
                 android:layout_width="match_parent"
@@ -366,7 +378,8 @@
                 android:layout_marginRight="1dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_customize"
-                android:text="7・8" />
+                android:text="英語 B"
+                android:id="@+id/f4" />
 
         </LinearLayout>
 
@@ -382,7 +395,8 @@
                 android:layout_marginRight="1dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_customize"
-                android:text="3・4" />
+                android:text="実験"
+                android:id="@+id/a3" />
 
         </LinearLayout>
 
@@ -392,6 +406,22 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_customize"
+                    android:text="電気回路 I"
+                    android:id="@+id/w3" />
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -406,24 +436,8 @@
                     android:layout_marginRight="1dp"
                     android:layout_weight="1"
                     android:background="@drawable/button_customize"
-                    android:text="5・6" />
-
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginBottom="1dp"
-                    android:layout_marginRight="1dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/button_customize"
-                    android:text="7・8" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
+                    android:text="特活"
+                    android:id="@+id/w4" />
 
                 <Button
                     android:layout_width="match_parent"
@@ -431,8 +445,10 @@
                     android:layout_marginRight="1dp"
                     android:layout_weight="1"
                     android:background="@drawable/button_customize"
-                    android:text="5・6" />
+                    />
+
             </LinearLayout>
+
 
         </LinearLayout>
 
@@ -448,17 +464,16 @@
                 android:layout_marginBottom="1dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_customize"
-                android:text="5・6" />
+                android:text="国語"
+                android:id="@+id/g3" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/button_customize"
-                android:text="7・8" />
+                android:background="@drawable/button_customize" />
 
         </LinearLayout>
-
 
     </TableRow>
 
